@@ -1,4 +1,5 @@
 # Maze Game using SDL2 & Raycasting
+<img width="641" alt="Screenshot 2024-03-14 at 10 28 40 AM" src="https://github.com/ay0x/maze/assets/85720179/49f7273d-32d1-4e9b-9037-0a145eec731f">
 
 ## Introduction
 This project encompasses a maze game developed in C, utilizing the SDL2 library. The game employs raycasting to create a 3D-like environment, reminiscent of classic games such as Wolfenstein.
