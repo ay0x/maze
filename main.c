@@ -55,10 +55,10 @@ int main(void)
 
                 case SDL_KEYDOWN:
                     switch (event.key.keysym.sym) {
-                        case SDLK_q: /*Rotate left*/
+                        case SDLK_LEFT: /*Rotate left*/
                             rotatePlayer(&player, 1);
                             break;
-                        case SDLK_e: /*Rotate right*/
+                        case SDLK_RIGHT: /*Rotate right*/
                             rotatePlayer(&player, -1);
                             break;
                     break;
