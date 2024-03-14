@@ -15,7 +15,7 @@ The game immerses players in a maze environment rendered with raycasting techniq
 ## Gameplay
 * Move within the maze using WASD keys
 * Rotate left and right with Q and E respectively
-* Exit the game by pressing the Escape key
+* Find your way out of the maze
 
 ## Additional Resources
 You can find related project documents [here](https://docs.google.com/document/d/1Akjmu5wtR83qsSaD8RnA20SLIi5a4FH0H9X0zpFXX64/edit?usp=sharing).
