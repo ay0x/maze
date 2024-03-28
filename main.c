@@ -5,8 +5,6 @@
  */
 
 const float playerFOV = (PI / 2.0f);
-const float maxDepth = 20.0f;
-
 
 int main(void)
 {
@@ -41,12 +39,12 @@ int main(void)
         .plane = {.x = 0.0f, .y = 0.66f},
     };
 
+
 	const float rotateSpeed = 0.05, moveSpeed = 0.05;
 	
 	while (!state.quit)
 	{
 		SDL_Event event;
-        int mouse_xrel = 0;
 		while (SDL_PollEvent(&event)) {
 			switch (event.type) {
 		        case SDL_QUIT:

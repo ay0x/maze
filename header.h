@@ -29,7 +29,8 @@ extern const uint8_t MAP[];
 #define SCREEN_HEIGHT 480
 #define MAP_SIZE 16
 #define PI 3.14159265f
-
+#define texWidth 64
+#define texHeight 64
 
 typedef enum {NorthSouth, EastWest} Side;
 
@@ -64,6 +65,7 @@ typedef struct{
 int xy2index(int x, int y, int w);
 void render(State *state, Player* player);
 void rotatePlayer(Player* player, int direction);
+void drawBuffer(Uint32* buffer, State* state);
 
 
 #endif
